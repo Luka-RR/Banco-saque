@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+
+/* ____define a cor da pagina toda__________ */
+body{
+    background-color: rgb(176, 177, 175);
+
+}
+
+/* ____Define a largura da pagina____________ */
+.interface{
+    max-width: 1250px;
+    gap: 20px;
+    margin:  auto;
+    padding: 20px 0;
+    width: 100%;
+}
+
+/* ======================== inicio ============================= */
+
+
+.flex{
+    display: flex;
+    justify-content:center; /* Centraliza horizontalmente as divs internas */
+    align-items: center; /* Centraliza verticalmente as divs internas */
+    background-color: white;
+    margin: 100px 0px 15px 0px;
+    height: 370px;
+    box-shadow: 0px 5px 0px rgba(29, 27, 25, 0.356), 0px -5px 0px rgba(29, 27, 25, 0.356);
+    position: relative;
+}
+
+
+.aguarde {
+    position: absolute;
+    left: 20px; /* Posiciona o parágrafo no canto esquerdo */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta a posição vertical para centralizar o parágrafo */
+}
+
+p{
+    font-size: 25px;
+    margin-right: 20px; /* Espaço entre o parágrafo e a bolinha */
+}
+
+/* =-================================== bolinha carregando ========================== */
+
+.carregando{
+    border: 8px solid #f3f3f3;  /* Cor de fundo da bolinha */
+    border-top: 8px solid #ebad5d; /* Cor da parte superior da bolinha */
+    border-radius: 50%;  /* Faz a bolinha ser redonda */
+    width: 100px;  /* Largura da bolinha */
+    height: 100px;  /* Altura da bolinha */
+    animation: spin 1s linear infinite;  /* Animação de rotação */
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);  /* Começa sem rotação */
+    }
+    100% {
+        transform: rotate(360deg);  /* Finaliza uma rotação completa */
+    }
+}
+/* =================================================================================== */
+
+.icone{
+    display: none;
+    font-size: 150px;
+    color: green;
+}
+
+.retire{
+    display: none;
+    position: absolute; /* Posiciona o parágrafo fora do fluxo flexbox */
+    left: 20px; /* Posiciona o parágrafo no canto esquerdo */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta a posição vertical para centralizar o parágrafo */
+}
+/* ============================================================================================== */
+
+.voltar-pagina{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 0%;
+    margin-right: 10%;
+    gap: 150px; 
+}
+button{
+    width: 70px;  /* ajusta a largura do botão */
+    height: 70px; /*ajusta o tamanho */
+    border-radius: 90px; /*  arredonda as bordas */
+    box-shadow: 0px 0px 15px rgba(29, 27, 25, 0.904);
+}
+
+button:hover {
+    background-color: #444; /* Muda a cor de fundo do botão para um cinza mais claro (#444) quando o mouse está sobre ele */
+    color: white; /* Muda a cor do texto para branco quando o mouse está sobre o botão */
+}
+
+.voltar-pagina button i{
+    font-size: 50px;
+}
+
+.btn-voltar{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}

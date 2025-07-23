@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LUCAS\\Desktop\\BACKUP-PASTA\\projetos\\Banco-ASP-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A67A9512-F38A-4BEE-9D5E-481899355707}|Banco-ASP-2.csproj|c:\\users\\lucas\\desktop\\backup-pasta\\projetos\\banco-asp-2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A67A9512-F38A-4BEE-9D5E-481899355707}|Banco-ASP-2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67A9512-F38A-4BEE-9D5E-481899355707}|Banco-ASP-2.csproj|c:\\users\\lucas\\desktop\\backup-pasta\\projetos\\banco-asp-2\\views\\home\\menu\\index3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A67A9512-F38A-4BEE-9D5E-481899355707}|Banco-ASP-2.csproj|solutionrelative:views\\home\\menu\\index3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67A9512-F38A-4BEE-9D5E-481899355707}|Banco-ASP-2.csproj|c:\\users\\lucas\\desktop\\backup-pasta\\projetos\\banco-asp-2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67A9512-F38A-4BEE-9D5E-481899355707}|Banco-ASP-2.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A67A9512-F38A-4BEE-9D5E-481899355707}|Banco-ASP-2.csproj|c:\\users\\lucas\\desktop\\backup-pasta\\projetos\\banco-asp-2\\models\\notasmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A67A9512-F38A-4BEE-9D5E-481899355707}|Banco-ASP-2.csproj|solutionrelative:models\\notasmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Notasmodels.cs",
+              "DocumentMoniker": "C:\\Users\\LUCAS\\Desktop\\BACKUP-PASTA\\projetos\\Banco-ASP-2\\Models\\Notasmodels.cs",
+              "RelativeDocumentMoniker": "Models\\Notasmodels.cs",
+              "ToolTip": "C:\\Users\\LUCAS\\Desktop\\BACKUP-PASTA\\projetos\\Banco-ASP-2\\Models\\Notasmodels.cs",
+              "RelativeToolTip": "Models\\Notasmodels.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAgwMQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T13:41:23.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index3.cshtml",
+              "DocumentMoniker": "C:\\Users\\LUCAS\\Desktop\\BACKUP-PASTA\\projetos\\Banco-ASP-2\\Views\\Home\\menu\\Index3.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\menu\\Index3.cshtml",
+              "ToolTip": "C:\\Users\\LUCAS\\Desktop\\BACKUP-PASTA\\projetos\\Banco-ASP-2\\Views\\Home\\menu\\Index3.cshtml",
+              "RelativeToolTip": "Views\\Home\\menu\\Index3.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T20:07:01.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\LUCAS\\Desktop\\BACKUP-PASTA\\projetos\\Banco-ASP-2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\LUCAS\\Desktop\\BACKUP-PASTA\\projetos\\Banco-ASP-2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T18:48:26.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LUCAS\\Desktop\\BACKUP-PASTA\\projetos\\Banco-ASP-2\\Views\\Home\\index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\index.cshtml",
+              "ToolTip": "C:\\Users\\LUCAS\\Desktop\\BACKUP-PASTA\\projetos\\Banco-ASP-2\\Views\\Home\\index.cshtml",
+              "RelativeToolTip": "Views\\Home\\index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T18:48:16.134Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

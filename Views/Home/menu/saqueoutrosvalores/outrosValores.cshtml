@@ -1,0 +1,152 @@
+﻿@model Banco_ASP_2.Models.Notasmodels
+
+
+
+
+@{
+    ViewData["Title"] = "outrosValores";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-------------------- BOOSTREP ICONS  ------------------------------------------>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!----------------------------------------------------------------------------- -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <title>@ViewData["Title"]</title>
+        <link rel="stylesheet" href="~/css/outrosValores.css">
+    </head>
+
+    <body>
+        <section class="Menu-slado">
+            <div class="Interface">
+                <div class="flex">
+                    <!-- Caixa de informações -->
+                    <div class="Menu">
+                    <form asp-controller="Home"
+                          asp-action="OpcaoDeSaque"
+                          method="get"
+                          onsubmit="if (!validarFormulario()) return false; prepararEnvio(); return true;">
+                        <input type="text" id="valorSaque" name="othervalue" placeholder="Outros Valores" required />
+                        <button type="submit">Sacar</button>
+                    </form>
+
+
+                        <p>SALDO EM CONTA: @Html.Raw($"<strong>{((decimal)(Model.Saldo ?? 0)).ToString("C", new System.Globalization.CultureInfo("pt-BR"))}</strong>")</p> 
+                        <p>MÁXIMO POR SAQUE: <strong>R$ 5.000,00</strong></p>
+
+                         <p> 
+                            NOTAS DISPONIVEIS:<br /> 
+
+                                @foreach (var nota in Model.Notas) 
+                                 { 
+                                    if (nota.Value > 0) 
+                                     { 
+                                         @Html.Raw($" <strong>R${@nota.Key},00 :  CÉDULAS DISPONIVEIS = {nota.Value} <br /> </strong>") 
+                                    } 
+                                 } 
+                         </p> 
+
+                         <p>SALDO DO BANCO: @Html.Raw($"<strong>{((decimal)(ViewBag.SaldoBanco)).ToString("C", new System.Globalization.CultureInfo("pt-BR"))}</strong>")</p>
+
+                    </div>
+
+
+                </div>
+            </div>
+        
+    </section>
+
+    <script>
+        const saldoUsuario = @((int)((Model.Saldo ?? 0) * 100));
+        const saldoBanco = @((int)(ViewBag.SaldoBanco * 100));
+    </script>
+
+    <script>
+
+        
+        // Obtém o elemento do input onde o usuário digita o valor
+        const input = document.getElementById('valorSaque');
+
+        // Adiciona um evento ao input que chama a função de formatação sempre que o valor muda
+        input.addEventListener('input', formatarMoeda);
+
+        /**
+         * Formata o valor digitado no input como moeda brasileira (R$).
+         * Exemplo: se o usuário digitar "1234", será exibido "R$ 12,34".
+         */
+        function formatarMoeda(e) {
+            let valor = e.target.value.replace(/\D/g, ''); // Remove tudo que não for número
+            valor = (parseFloat(valor) / 100).toFixed(2);  // Divide por 100 e fixa 2 casas decimais
+            e.target.value = Number(valor).toLocaleString('pt-BR', {
+                style: 'currency',
+                currency: 'BRL'
+            });
+        }
+
+        /**
+         * Prepara o valor para envio ao servidor, removendo "R$", pontos e vírgulas,
+         * para garantir que apenas números inteiros sejam enviados no parâmetro.
+         */
+        function prepararEnvio() {
+            const input = document.getElementById('valorSaque');
+            // Remove tudo que não for número (ex: R$, . e ,)
+            input.value = input.value.replace(/[^\d]+/g, '');
+            return true; // Permite o envio do formulário
+        }
+
+        /**
+         * Valida o valor digitado antes de permitir o envio.
+         * Impede valores vazios, zero ou acima de R$ 5.000,00.
+         */
+        function validarFormulario() {
+            const input = document.getElementById('valorSaque');
+            // Remove caracteres não numéricos e converte para número com decimal
+            let valor = parseFloat(input.value.replace(/\D/g, '')) / 100;
+            let valorCentavos = Math.round(valor * 100); // em centavos
+
+            // Verifica se o valor é nulo ou igual a zero
+            if (!valor || valor === 0) {
+                alert("Digite um valor maior que 9 reais para realizar o saque.");
+                return false; // Bloqueia envio
+            }
+
+            
+            
+
+            if (valor % 10 !== 0) {
+                alert("Não é possivel realizar esse saque, valores apenas multiplos de 10");
+                return false;
+            }
+
+            if (!valor || valor < 10) {
+                alert("Não é possivel realizar esse tipo de saque");
+                return false; // Bloqueia envio
+            }
+
+            // Verifica se o valor ultrapassa o limite permitido
+            if (valor > 5000) {
+                alert("Não é possível realizar saques acima de R$ 5.000,00.");
+                return false; // Bloqueia envio
+            }
+
+            if (valorCentavos > saldoUsuario) {
+                alert("Saldo insuficiente em conta para realizar o saque.");
+                return false;
+            }
+
+            if (valorCentavos > saldoBanco) {
+                alert("Saldo insuficiente no caixa para realizar o saque.");
+                return false;
+            }
+
+            return true; // Permite o envio
+        }
+    </script>
+
+    </body>
+</html>

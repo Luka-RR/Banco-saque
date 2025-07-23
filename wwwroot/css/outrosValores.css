@@ -1,0 +1,91 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+
+/* ____define a cor da pagina toda__________ */
+body {
+    background-color: rgb(176, 177, 175);
+}
+
+.Menu {
+    width: 40%; /*  Define a largura da div '.Menu' como 30% da largura do elemento pai (geralmente o body ou a seção) */
+    background-color: white; /* Define o fundo da div '.Menu' como um cinza escuro (#333) */
+    color: black; /* Define a cor do texto dentro da div '.Menu' como branco */
+    padding: 25px; /* Define o preenchimento (espaço interno) da div '.Menu' como 15px em todos os lados */
+    border-radius: 15px;
+    margin-right: 10px; /* Adicona espaço no lado esquerdo*/
+}
+
+    /* Quando o mouse passa sobre a caixa (hover) */
+    .Menu:hover {
+        box-shadow: 0px 0px 10px rgba(240, 117, 3, 0.7); /* Aplica sombra quando o mouse está sobre a div */
+    }
+
+
+    .Menu p {
+        margin-bottom: 1px;
+/*        line-height: 1.8;  */
+        padding: 10px;
+    }
+
+.flex {
+    display: flex; /*Define que o layout interno será flexível (os elementos vão se alinhar em linha ou coluna) */
+    justify-content: space-between; /*Espaça os itens dentro da div 'flex' uniformemente, com o maior espaço possível entre eles */
+    margin-top: 90px; /*Define uma margem superior de 20px entre a div 'flex' e o elemento acima dela */
+    padding: 10px 5%;
+
+}
+
+button {
+    width: 70px; /* ajusta a largura do botão */
+    height: 40px; /*ajusta o tamanho */
+    border-radius: 100px; /*  arredonda as bordas */
+    box-shadow: 0px 0px 10px rgba(29, 27, 25, 0.904);
+    margin-left: 30px;
+}
+
+    button:hover {
+        background-color: #444; /* Muda a cor de fundo do botão para um cinza mais claro (#444) quando o mouse está sobre ele */
+        color: white; /* Muda a cor do texto para branco quando o mouse está sobre o botão */
+    }
+
+
+
+.tela-oculta {
+    display: none;
+    flex-direction: column; /* Alinha os filhos (como .titulo-opcao e .opcoes) em coluna */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    margin: 0px auto; /* Centraliza a div horizontalmente na tela */
+}
+
+.titulo-opcao {
+    font-size: 20px; /* Define o tamanho da fonte do título */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-bottom: 30px; /* Espaço abaixo do título */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.opcoes {
+    display: flex; /* Usa Flexbox para posicionar as opções lado a lado */
+    flex-direction: row; /* Alinha os elementos filhos (.opcao1, .opcao2, .opcao3) em linha */
+    gap: 40px; /* Espaço entre cada caixa de opção */
+    justify-content: center; /* Centraliza horizontalmente as opções */
+    flex-wrap: wrap; /* Permite que as opções quebrem linha em telas menores */
+}
+
+.opcao1, .opcao2, .opcao3 {
+    background-color: white; /* Fundo branco para as caixas */
+    width: 200px; /* Largura fixa das caixas */
+    height: 300px; /* Altura fixa das caixas */
+    border-radius: 10px; /* Cantos arredondados */
+    display: flex; /* Flexbox para o conteúdo interno */
+    flex-direction: column; /* Organiza os textos e botão em coluna */
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
+    align-items: center; /* Centraliza horizontalmente o conteúdo */
+    box-shadow: 10px 10px 15px rgba(29, 27, 25, 0.2); /* Sombra para dar profundidade */
+    padding: 15px; /* Espaço interno em todos os lados */
+    gap: 22px; /* Espaço entre os elementos internos (texto e botão) */
+}

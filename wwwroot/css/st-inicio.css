@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+
+/* ____define a cor da pagina toda__________ */
+body{
+    background-color: rgb(176, 177, 175);
+
+}
+
+/* ____Define a largura da pagina____________ */
+.interface{
+    max-width: 1250px;
+    gap: 20px;
+    margin:  auto;
+    display: flex;
+    justify-content: center;/*  Centraliza o conteúdo horizontalmente */
+    align-items: center;     /* Centraliza o conteúdo verticalmente */
+    flex-direction: column; /*  Garante que o conteúdo dentro de .inteface fique em coluna */
+    margin-top: 50px;
+}
+
+.interface p{
+    font-size: 25px;
+}
+
+/* ============================================================================================= */
+
+.flex {
+    display:flex;
+    flex-wrap: wrap;  /* Permite que os itens quebrem para a próxima linha */
+    justify-content:space-between;  /* Alinha os itens na linha com espaçamento */
+    align-items: center; /* Alinha os itens verticalmente */
+    gap: 25px; /* Espaçamento entre os itens */
+    margin: 30px 10px 30px 10px;
+    margin-top: 10px;
+}
+
+.nota-10, .nota-20, .nota-50, .nota-100, .nota-200, .Saldo{
+    background-color: white;
+    width: 40%;
+    height: 130px;
+    margin: 0px 30px 0px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;  /* Organiza os elementos em coluna */
+    justify-content: center;  /* Centraliza o conteúdo verticalmente */
+    align-items: center;  /* Centraliza o conteúdo horizontalmente */
+    gap: 10px;
+    box-shadow: 50px 50px 30px rgba(29, 27, 25, 0.356);
+}
+
+.nota-10 i{
+    font-size: 10px;
+}
+
+.Saldo{
+    width: 20%
+}
+
+
+
+.continuar{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-top: 0%; */
+    margin-right: 5%;
+    gap: 10px;
+}
+
+button{
+    width: 70px;  /* ajusta a largura do botão */
+    height: 70px; /*ajusta o tamanho */
+    border-radius: 90px;  /* arredonda as bordas */
+    box-shadow: 0px 0px 15px rgba(29, 27, 25, 0.904);
+}
+
+button:hover {
+    background-color: #444; /* Muda a cor de fundo do botão para um cinza mais claro (#444) quando o mouse está sobre ele */
+    color: white; /* Muda a cor do texto para branco quando o mouse está sobre o botão */
+}
+
+.continuar button i{
+    font-size: 50px;
+}

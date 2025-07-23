@@ -1,0 +1,114 @@
+C:\Users\LUCAS\Desktop\Banco-ASP-2\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\LUCAS\Desktop\Banco-ASP-2\bin\Debug\net8.0\appsettings.json
+C:\Users\LUCAS\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.staticwebassets.runtime.json
+C:\Users\LUCAS\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.exe
+C:\Users\LUCAS\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.deps.json
+C:\Users\LUCAS\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.runtimeconfig.json
+C:\Users\LUCAS\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.dll
+C:\Users\LUCAS\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.pdb
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.AssemblyInfoInputs.cache
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.AssemblyInfo.cs
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.csproj.CoreCompileInputs.cache
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.RazorAssemblyInfo.cache
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.RazorAssemblyInfo.cs
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.Banco-ASP-2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.build.Banco-ASP-2.props
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Banco-ASP-2.props
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Banco-ASP-2.props
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\scopedcss\bundle\Banco-ASP-2.styles.css
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\scopedcss\projectbundle\Banco-ASP-2.bundle.scp.css
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.dll
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\refint\Banco-ASP-2.dll
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.pdb
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.genruntimeconfig.cache
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\ref\Banco-ASP-2.dll
+C:\Users\AGECOM\Desktop\backup-asp\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AGECOM\Desktop\backup-asp\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.AssemblyInfoInputs.cache
+C:\Users\AGECOM\Desktop\backup-asp\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.AssemblyInfo.cs
+C:\Users\AGECOM\Desktop\backup-asp\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.csproj.CoreCompileInputs.cache
+C:\Users\AGECOM\Desktop\backup-asp\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AGECOM\Desktop\backup-asp\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.RazorAssemblyInfo.cache
+C:\Users\AGECOM\Desktop\backup-asp\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.RazorAssemblyInfo.cs
+C:\Users\AGECOM\Desktop\backup-asp\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.dll
+C:\Users\AGECOM\Desktop\backup-asp\Banco-ASP-2\obj\Debug\net8.0\refint\Banco-ASP-2.dll
+C:\Users\AGECOM\Desktop\backup-asp\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.pdb
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.AssemblyInfoInputs.cache
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.AssemblyInfo.cs
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.csproj.CoreCompileInputs.cache
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.RazorAssemblyInfo.cache
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.RazorAssemblyInfo.cs
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.dll
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\refint\Banco-ASP-2.dll
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.pdb
+C:\Users\AGECOM\Desktop\Banco-ASP-2\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\AGECOM\Desktop\Banco-ASP-2\bin\Debug\net8.0\appsettings.json
+C:\Users\AGECOM\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.staticwebassets.runtime.json
+C:\Users\AGECOM\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.staticwebassets.endpoints.json
+C:\Users\AGECOM\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.exe
+C:\Users\AGECOM\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.deps.json
+C:\Users\AGECOM\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.runtimeconfig.json
+C:\Users\AGECOM\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.dll
+C:\Users\AGECOM\Desktop\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.pdb
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\scopedcss\bundle\Banco-ASP-2.styles.css
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\scopedcss\projectbundle\Banco-ASP-2.bundle.scp.css
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.Banco-ASP-2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.Banco-ASP-2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.build.Banco-ASP-2.props
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Banco-ASP-2.props
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Banco-ASP-2.props
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.genruntimeconfig.cache
+C:\Users\AGECOM\Desktop\Banco-ASP-2\obj\Debug\net8.0\ref\Banco-ASP-2.dll
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\bin\Debug\net8.0\appsettings.json
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.staticwebassets.runtime.json
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.staticwebassets.endpoints.json
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.exe
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.deps.json
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.runtimeconfig.json
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.dll
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\bin\Debug\net8.0\Banco-ASP-2.pdb
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.AssemblyInfoInputs.cache
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.AssemblyInfo.cs
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.csproj.CoreCompileInputs.cache
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.RazorAssemblyInfo.cache
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.RazorAssemblyInfo.cs
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\scopedcss\bundle\Banco-ASP-2.styles.css
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\scopedcss\projectbundle\Banco-ASP-2.bundle.scp.css
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.Banco-ASP-2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.Banco-ASP-2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.build.Banco-ASP-2.props
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Banco-ASP-2.props
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Banco-ASP-2.props
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.dll
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\refint\Banco-ASP-2.dll
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.pdb
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.genruntimeconfig.cache
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\ref\Banco-ASP-2.dll
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.csproj.AssemblyReference.cache
+C:\Users\lukar\OneDrive\Área de Trabalho\Banco-ASP-2\obj\Debug\net8.0\Banco-AS.8E220361.Up2Date
+C:\Users\LUCAS\Desktop\Banco-ASP-2\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-ASP-2.csproj.AssemblyReference.cache
+C:\Users\LUCAS\Desktop\Banco-ASP-2\obj\Debug\net8.0\Banco-AS.8E220361.Up2Date

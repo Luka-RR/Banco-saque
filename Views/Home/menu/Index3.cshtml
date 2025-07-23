@@ -1,0 +1,235 @@
+﻿@model Banco_ASP_2.Models.Notasmodels
+
+@if (TempData["Mensagem"] != null)
+{
+    <div class="alert alert-danger" id="alertMensagem">
+        @TempData["Mensagem"]
+        <br />
+        @foreach (var nota in Model.Notas)
+        {
+            if (nota.Value == 0)
+            {
+                @Html.Raw($"<strong>R${nota.Key},00       </strong>")
+            }
+        }
+
+    </div>
+}
+@{
+    ViewData["Title"] = "Index3";
+}
+
+<!DO<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-------------------- BOOSTREP ICONS  ------------------------------------------>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!----------------------------------------------------------------------------- -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+
+    <section class="topo-do-site">
+        <div class="interface">
+            <h1>Saque de conta corrente</h1>
+            <h2>Toque na opção desejada</h2>
+
+            <div class="flex">
+                <!-- Caixa de informações -->
+                <div class="Menu">
+                    <p>SALDO EM CONTA: @Html.Raw($"<strong>{((decimal)(Model.Saldo ?? 0)).ToString("C", new System.Globalization.CultureInfo("pt-BR"))}</strong>")</p>
+                    <p>MÁXIMO POR SAQUE: <strong>R$ 5.000,00</strong></p>
+
+                    <p>NOTAS DISPONIVEIS:<br />
+
+                        @foreach(var nota in Model.Notas)
+                        {
+                                if(nota.Value > 0)
+                                {
+                                    @Html.Raw($" <strong>R${@nota.Key},00 :  CÉDULAS DISPONIVEIS = {nota.Value} <br /> </strong>")
+                                }
+                        }
+                    </p>
+
+                    <p>SALDO DO BANCO: @Html.Raw($"<strong>{((decimal)(ViewBag.SaldoBanco)).ToString("C", new System.Globalization.CultureInfo("pt-BR"))}</strong>")</p>
+
+                </div>
+
+                <!-- Lista de opções de saque -->
+                    <div class="coluna1">
+                        <div class="botao1">
+                            <form asp-controller="Home" asp-action="Saque" method="get">                                
+                                <input type="hidden" name="nota.Saldo" value="@Model.Saldo" />
+                                <input type="hidden" name="nota.Nota10" value="@Model.Nota10" />
+                                <input type="hidden" name="nota.Nota20" value="@Model.Nota20" />
+                                <input type="hidden" name="nota.Nota50" value="@Model.Nota50" />
+                                <input type="hidden" name="nota.Nota100" value="@Model.Nota100" />
+                                <input type="hidden" name="nota.Nota200" value="@Model.Nota200" />
+                            <button type="submit" name="valor" value="20" class="botao-estilizado" onclick="return VerificaSaldo(this)">R$ 20,00</button>
+                            </form>
+                        </div>
+
+
+                    <div class="botao2">
+                        <form asp-controller="Home" asp-action="Saque" method="get">
+                            <input type="hidden" name="nota.Saldo" value="@Model.Saldo" />
+                            <input type="hidden" name="nota.Nota10" value="@Model.Nota10" />
+                            <input type="hidden" name="nota.Nota20" value="@Model.Nota20" />
+                            <input type="hidden" name="nota.Nota50" value="@Model.Nota50" />
+                            <input type="hidden" name="nota.Nota100" value="@Model.Nota100" />
+                            <input type="hidden" name="nota.Nota200" value="@Model.Nota200" />
+                            <button type="submit" name="valor" value="40" class="botao-estilizado" onclick="return VerificaSaldo(this)">R$ 40,00</button>
+                        </form>
+                    </div>
+
+                    <div class="botao3">
+                        <form asp-controller="Home" asp-action="Saque" method="get">
+                            <input type="hidden" name="nota.Saldo" value="@Model.Saldo" />
+                            <input type="hidden" name="nota.Nota10" value="@Model.Nota10" />
+                            <input type="hidden" name="nota.Nota20" value="@Model.Nota20" />
+                            <input type="hidden" name="nota.Nota50" value="@Model.Nota50" />
+                            <input type="hidden" name="nota.Nota100" value="@Model.Nota100" />
+                            <input type="hidden" name="nota.Nota200" value="@Model.Nota200" />
+                            <button type="submit" name="valor" value="50" class="botao-estilizado" onclick="return VerificaSaldo(this)">R$ 50,00</button>
+                        </form>
+                    </div>
+
+                    <div class="botao4">
+                        <form asp-controller="Home" asp-action="Saque" method="get">
+                            <input type="hidden" name="nota.Saldo" value="@Model.Saldo" />
+                            <input type="hidden" name="nota.Nota10" value="@Model.Nota10" />
+                            <input type="hidden" name="nota.Nota20" value="@Model.Nota20" />
+                            <input type="hidden" name="nota.Nota50" value="@Model.Nota50" />
+                            <input type="hidden" name="nota.Nota100" value="@Model.Nota100" />
+                            <input type="hidden" name="nota.Nota200" value="@Model.Nota200" />
+                            <button type="submit" name="valor" value="60" class="botao-estilizado" onclick="return VerificaSaldo(this)">R$ 60,00</button>
+                        </form>
+                    </div>
+
+                    <div class="botao5">
+                        <form asp-controller="Home" asp-action="VaiParaOutrosValores" method="get">
+                            <input type="hidden" name="nota.Saldo" value="@Model.Saldo" /> 
+                             <input type="hidden" name="nota.Nota10" value="@Model.Nota10" /> 
+                             <input type="hidden" name="nota.Nota20" value="@Model.Nota20" />
+                             <input type="hidden" name="nota.Nota50" value="@Model.Nota50" />
+                             <input type="hidden" name="nota.Nota100" value="@Model.Nota100" />
+                             <input type="hidden" name="nota.Nota200" value="@Model.Nota200" />
+                            <button type="submit" class="botao-estilizado" >OUTROS VALORES</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="coluna2">
+                    <div class="botao6">
+                        <form asp-controller="Home" asp-action="Saque" method="get">
+                             <input type="hidden" name="nota.Saldo" value="@Model.Saldo"/>
+                            <input type="hidden" name="nota.Nota10" value="@Model.Nota10" />
+                            <input type="hidden" name="nota.Nota20" value="@Model.Nota20" />
+                            <input type="hidden" name="nota.Nota50" value="@Model.Nota50" />
+                            <input type="hidden" name="nota.Nota100" value="@Model.Nota100" />
+                            <input type="hidden" name="nota.Nota200" value="@Model.Nota200" />
+                            <button type="submit" name="valor" value="80" class="botao-estilizado" onclick="return VerificaSaldo(this)">R$ 80,00</button>
+                        </form>
+                    </div>
+
+                    <div class="botao7">
+                        <form asp-controller="Home" asp-action="Saque" method="get">
+                            <input type="hidden" name="nota.Saldo" value="@Model.Saldo" />
+                            <input type="hidden" name="nota.Nota10" value="@Model.Nota10" />
+                            <input type="hidden" name="nota.Nota20" value="@Model.Nota20" />
+                            <input type="hidden" name="nota.Nota50" value="@Model.Nota50" />
+                            <input type="hidden" name="nota.Nota100" value="@Model.Nota100" />
+                            <input type="hidden" name="nota.Nota200" value="@Model.Nota200" />
+                            <button type="submit" name="valor" value="100" class="botao-estilizado" onclick="return VerificaSaldo(this)">R$ 100,00</button>
+                        </form>
+                    </div>
+
+                    <div class="botao8">
+                        <form asp-controller="Home" asp-action="Saque" method="get">
+                            <input type="hidden" name="nota.Saldo" value="@Model.Saldo" />
+                            <input type="hidden" name="nota.Nota10" value="@Model.Nota10" />
+                            <input type="hidden" name="nota.Nota20" value="@Model.Nota20" />
+                            <input type="hidden" name="nota.Nota50" value="@Model.Nota50" />
+                            <input type="hidden" name="nota.Nota100" value="@Model.Nota100" />
+                            <input type="hidden" name="nota.Nota200" value="@Model.Nota200" />
+                            <button type="submit" name="valor" value="540" class="botao-estilizado" onclick="return VerificaSaldo(this)">R$ 540,00</button>
+                        </form>
+                    </div>
+
+                    <div class="botao9">
+                        <form asp-controller="Home" asp-action="Saque" method="get">
+                            <input type="hidden" name="nota.Saldo" value="@Model.Saldo" />
+                            <input type="hidden" name="nota.Nota10" value="@Model.Nota10" />
+                            <input type="hidden" name="nota.Nota20" value="@Model.Nota20" />
+                            <input type="hidden" name="nota.Nota50" value="@Model.Nota50" />
+                            <input type="hidden" name="nota.Nota100" value="@Model.Nota100" />
+                            <input type="hidden" name="nota.Nota200" value="@Model.Nota200" />
+                            <button type="submit" name="valor" value="750" class="botao-estilizado" onclick="return VerificaSaldo(this)">R$ 750,00</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="botoes">
+        <div class="interface">
+            <div class="flex">
+
+                <div class="btn-inicio">
+                    <form action="/Home/index" method="post">
+                        <button type="submit">
+                            <i class="bi bi-house-door-fill"></i>
+                        </button>
+                    </form>
+                    <p>INÍCIO</p>
+                </div>
+
+                <div class="btn-fim">
+                    <form action="/Home/index" method="post">
+                        <input type="hidden" name="nota.Saldo" value="@Model.Saldo" />
+                        <button type="submit">
+                            <i class="bi bi-x"></i>
+                        </button>
+                    </form>
+                    <p>FIM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function VerificaSaldo(botao){
+        var valor = botao.value;
+            if(valor > @Model.Saldo){
+               alert("Saldo insuficiente");
+                    return false;
+            }
+            if(valor > @ViewBag.saldoBanco){
+                alert("SALDO DO CAIXA INSUFICENTE PARA ESSE TIPO DE TRANSAÇÃO")
+                    return false;
+            }
+            return true;
+        }
+    </script>
+
+    <script>
+    function validarFormulario() {
+        const campos = document.querySelectorAll('input[type="number"]');
+        for (const campo of campos) {
+            if (campo.value > 5000) {
+            alert("Não é possivel realizar saque acima de R$5.000,00");
+            return false;
+            }
+        }
+            return true;
+            }
+
+    </script>
+
+</body>
+</html>

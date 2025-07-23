@@ -1,0 +1,60 @@
+@{
+    ViewData["Title"] = "saque";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="~/css/st-saque.css">
+    <title>Saque</title>
+</head>
+<body>
+    <section class="saque">
+        <div class="inteface">
+            <div class="flex">
+                <div class="aguarde">
+                   <p>Aguarde a contagem das notas...</p>
+                </div>
+                <div class="retire">
+                    <p>Retire o dinheiro</p>
+                </div>
+                    <div class="carregando">
+                    </div>
+
+                    <div class="icone">
+                        <i class="bi bi-cash-coin"></i>
+                    </div>
+            </div>
+        </div>
+
+        <script>
+            // Após 4 segundos, esconde a bolinha e mostra o ícone
+            setTimeout(function() {
+                document.querySelector('.carregando').style.display = 'none'; // Esconde a bolinha
+                document.querySelector('.aguarde').style.display = 'none'; // esconde div  aguarde
+                document.querySelector('.icone').style.display = 'block'; // Exibe o ícone
+                document.querySelector('.retire').style.display = 'block'; // Exibe o paragrafo
+            }, 3000); // 3 segundos
+        </script>
+
+    </section>
+
+    <section class="voltar-pagina">
+        <div class="btn-voltar">
+			<form asp-controller="Home" asp-action="VoltarParaIndex3" method="get">
+            <input type="hidden" name="Saldoatualizado" value="@TempData["SaldoAtualizado"]" />
+           
+                <button type="submit">
+                    <i class="bi bi-arrow-left-short"></i>
+				</button>
+			</form>
+                <p>VOLTAR</p>
+        </div>
+    </section>
+
+    
+</body>
+</html>
